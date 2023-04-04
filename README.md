@@ -10,4 +10,4 @@ Widgets like:
 - sliders
 
 
-<img src="https://i.ibb.co/thk86h1/Screenshot-1680585710.png" width="150" height="280">
+<img src="https://i.ibb.co/thk86h1/Screenshot-1680585710.png" width="300" height="600">
