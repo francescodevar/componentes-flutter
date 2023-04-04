@@ -11,11 +11,11 @@ class AlertScreen extends StatelessWidget {
         context: context,
         builder: (context) {
           return CupertinoAlertDialog(
-            title: const Text("Boton de alerta"),
+            title: const Text("Boton de Dialogo"),
             content: Column(
               mainAxisSize: MainAxisSize.min,
               children: const [
-                Text("Henz Swatchzerg"),
+                Text("Soy un dialogo"),
                 SizedBox(height: 10),
                 FlutterLogo(size: 100),
               ],
@@ -42,7 +42,7 @@ class AlertScreen extends StatelessWidget {
         builder: (context) {
           return AlertDialog(
             elevation: 5,
-            title: const Text("Soy una alerta"),
+            title: const Text("Soy un dialogo"),
             shape: RoundedRectangleBorder(
                 borderRadius: BorderRadiusDirectional.circular(15)),
             content: Column(
@@ -70,7 +70,7 @@ class AlertScreen extends StatelessWidget {
               child: const Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 15),
                 child: Text(
-                  'Boton de alerta',
+                  'Boton de dialogo',
                   style: TextStyle(fontSize: 16),
                 ),
               ),

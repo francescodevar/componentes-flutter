@@ -5,17 +5,22 @@ import 'package:flutter_/screens/screens.dart';
 class AppRoutes {
   static const initialRoute = 'home';
   static final menuOptions = <MenuOption>[
-    // ignore: todo
-    // TODO:  borrar home,
+
+    MenuOption(
+        route: 'stepsScreen',
+        icon: Icons.format_list_numbered_rtl,
+        name: 'Steps',
+        screen: const StepsScreen()),
+
     MenuOption(
         route: 'card',
         icon: Icons.card_membership,
         name: 'card',
         screen: const CardScreen()),
     MenuOption(
-        route: 'alert',
+        route: 'Dialogo',
         icon: Icons.lock_clock,
-        name: 'alert',
+        name: 'Dialogo',
         screen: const AlertScreen()),
     MenuOption(
         route: 'listview1',
@@ -52,6 +57,8 @@ class AppRoutes {
         icon: Icons.screen_rotation_alt_outlined,
         name: 'Slides',
         screen: const ListViewBuilderScreen()),
+
+        
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
