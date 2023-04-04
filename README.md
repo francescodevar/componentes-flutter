@@ -9,4 +9,4 @@ Widgets like:
 - Loadings
 - sliders
 
-![image](https://i.ibb.co/thk86h1/Screenshot-1680585710.png = =250x250)
+![image](https://i.ibb.co/thk86h1/Screenshot-1680585710.png = 250x250)
