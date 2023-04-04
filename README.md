@@ -10,4 +10,4 @@ Widgets like:
 - sliders
 
 
-![image]([http://url.to/image.png](https://i.ibb.co/thk86h1/Screenshot-1680585710.png) = 250x250)
+<img src="https://i.ibb.co/thk86h1/Screenshot-1680585710.png" width="150" height="280">
